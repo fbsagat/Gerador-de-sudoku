@@ -447,7 +447,7 @@ atualizar_quadros()
 # ---------------------------------------------------------------
 # PAINEL DE CONTROLE
 # Ative o debug para acompanhar o processo no console:
-debug = False
+debug = True
 # Ative para mostrar o Sudoku na execução da aplicação:
 mostrar = True
 # Ativar o teste de matriz:
@@ -473,6 +473,6 @@ if debug:
           f'Pedir matriz: {tentativas_matriz}')
     menus()
     print()
-    mostrar_debug(ho=True, ve=True, qu=True, quo=False, titulo=False)
+    mostrar_debug(ho=True, ve=True, qu=True, quo=False, titulo=True)
 if mostrar:
     mostrar_debug(ho=False, ve=False, qu=False, quo=True, titulo=True)
